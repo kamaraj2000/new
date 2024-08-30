@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container1{
+    display: grid;
+    background-color: rgb(208, 215, 221);
+    padding: 10px;
+    grid-template-areas:
+     'menu menu menu menu'
+     'contact detail detail detail'
+     'contact info info info'
+     'about about about about';
+}
+.container1 div {
+    
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
+   
+}
+
+.item1 {
+    grid-area: menu;
+   
+}
+.item2 {height: 90vh;
+    grid-area: contact;
+    text-align: center;
+  
+    
+}
+.item3 {
+    grid-area: detail;
+}
+.item4 {
+    grid-area: info;
+}
+.item5 {
+    
+    grid-area: about;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    column-gap:10px;
+    align-content: space-between;
+    background-color: rgb(23, 31, 75);
+    color:aliceblue;
+   
+    
+  
+}
+.item1 input{
+    height: 27px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    
+
+}
+.img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+
+.item2 div {
+    width: 200px;
+    height: 50px;
+    border-radius: 0px 20px 0px 20px;
+    background-color: rgb(173, 198, 240);
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top:14px;
+    box-shadow: 5px 5px 2px 2px gray;
+    margin: 10px;
+  
+}
+
+.item3{
+    display: flex;
+    
+} 
+.item3 p {
+    font-size: 19px;
+    margin-left: 20px;
+}
+.item3 img{
+    width: 260px;
+    height: 160px; 
+}
+
+
+.item4{
+    display: flex;
+    
+} 
+.item4 p {
+    font-size: 19px;
+   
+}
+.item4 img{
+    width: 260px;
+    height: 160px;
+    margin-left: 20px;
+}
+.item5 p{
+    font-size: 17px;
+    text-align: center;
+}
+.item5 h2{
+    font-size: 22px;
+    text-align: center;
+}
